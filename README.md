@@ -21,3 +21,6 @@ npm i install
 Inicio Aplicação:
 ./frontend -> npm run dev
 ./backend -> npm run dev
+
+Build Projeto
+docker-compose up --build
