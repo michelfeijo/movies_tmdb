@@ -1,0 +1,84 @@
+/* Background da página */
+.container {
+    background-color: #fff;
+}
+
+.container .title {
+    color: #660099;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+/* Palavra digitada no campo de busca */
+.title .query-text {
+    color: #000000;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Moldura de cada filme */
+.movies-container div {
+    width: 30%;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movies-container div img {
+    max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p {
+    margin-bottom: 1rem;
+}
+
+/* Cor da estrela */
+.movies-container div svg {
+    color: #660099;
+}
+
+.movies-container div a {
+    background-color: #660099;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 1rem 0.5rem;    
+    align-items: center;
+    transition: .4s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movies-container div a:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* movie-card.css */
+.movie-card {
+    margin-top: 10px;
+}
+
+.movie-card .checkboxes {
+    /* Alinha os checkboxes em linha */
+    display: flex;
+    align-items: center;
+}
+
+.movie-card .checkboxes .MuiCheckbox-root {
+    margin-right: 10px; /* Espaçamento entre os checkboxes */
+}
